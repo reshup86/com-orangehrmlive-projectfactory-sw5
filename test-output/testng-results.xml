@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on ForgotPasswordLink]]>
+    </line>
+    <line>
+      <![CDATA[Error Message Displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="5545" started-at="2022-12-12T21:58:39 GMT" finished-at="2022-12-12T21:58:45 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="ForgotPasswordTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.ForgotPasswordTest@3712b94]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.demo.testsuite.ForgotPasswordTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="ForgotPasswordTest.userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.ForgotPasswordTest@3712b94]" name="userShouldNavigateToForgotPasswordPageSuccessfully" class="com.orangehrmlive.demo.testsuite.ForgotPasswordTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="com-orangehrmlive-pagefactory-sw5" duration-ms="5545" started-at="2022-12-12T21:58:39 GMT" finished-at="2022-12-12T21:58:45 GMT">
+      <class name="com.orangehrmlive.demo.testsuite.ForgotPasswordTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrmlive.demo.testsuite.ForgotPasswordTest@3712b94]" name="setUp" is-config="true" duration-ms="3913" started-at="2022-12-12T21:58:39 GMT" finished-at="2022-12-12T21:58:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.orangehrmlive.demo.testsuite.ForgotPasswordTest@3712b94]" name="inIt" is-config="true" duration-ms="35" started-at="2022-12-12T21:58:43 GMT" finished-at="2022-12-12T21:58:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToForgotPasswordPageSuccessfully()[pri:0, instance:com.orangehrmlive.demo.testsuite.ForgotPasswordTest@3712b94]" name="userShouldNavigateToForgotPasswordPageSuccessfully" duration-ms="736" started-at="2022-12-12T21:58:43 GMT" finished-at="2022-12-12T21:58:44 GMT">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on ForgotPasswordLink]]>
+            </line>
+            <line>
+              <![CDATA[Error Message Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToForgotPasswordPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.orangehrmlive.demo.testsuite.ForgotPasswordTest@3712b94]" name="tearDown" is-config="true" duration-ms="820" started-at="2022-12-12T21:58:44 GMT" finished-at="2022-12-12T21:58:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.orangehrmlive.demo.testsuite.ForgotPasswordTest -->
+    </test> <!-- com-orangehrmlive-pagefactory-sw5 -->
+  </suite> <!-- Default Suite -->
+</testng-results>
